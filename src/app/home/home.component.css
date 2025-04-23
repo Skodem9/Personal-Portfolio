@@ -80,8 +80,8 @@ a:hover{
     border-radius: 1rem;
     border-color: #d4d4d4 ;
     height: 100%;
-    transform: translateY(-9px);
-    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+    /* transform: translateY(-9px);
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2); */
 }
 
 .section_text{
@@ -444,4 +444,71 @@ flex-direction: column;
     border-color: #d9d5d5;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width: 600px){
+    nav{
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        gap: 1rem;
+        font-size: 1.2rem;
+        align-items: center;
+    }
+
+    .picture{
+        align-items: center;
+        width: 200px;
+        height: 200pz;
+        padding: 20px;
+        margin-left: 70px;
+    }
+
+    .pic-body{
+        flex-direction: column;
+        align-items: center;
+        border-width: 1.5rem;
+
+    }
+    .title, .section_text_p1, .section_text_p2{
+        font-size: 1.2rem;
+        width: auto;
+    }
+    .btn{
+        width: 10rem;
+        padding: 0.5rem;
+    }
+    .profile-body{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article-container{
+        margin-left: 1rem;
+        width: 90%;
+        height: auto;
+        padding: 2rem 1rem;
+        gap: 1rem;
+
+    }
+
+    .project-details{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-details{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 90%;
+    }
 }
